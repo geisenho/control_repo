@@ -3,7 +3,7 @@ node default {
 node 'puppet1.eisenhour.net' {
   include role::master_server
   file { '/root/README':
-    ensure=> file,
+    ensure => file,
     content => $fqdn,
 }
 
