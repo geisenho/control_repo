@@ -1,3 +1,3 @@
-class prifle::web {
+class profile::web {
   include nginx
  }
